@@ -48,7 +48,7 @@ def main():
     find_number = find_numberr
     print(recurse_search(find_number, listq))
     print(simple_search(find_number, listq))
-    print(time.time()-start)
+    print(f'Время работы программы - {time.time()-start}')
 
 
 main()
